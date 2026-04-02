@@ -1,0 +1,58 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "SlayGirl",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{ "include": "#period" },
+		{ "include": "#brackets" }
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.sg",
+				"match": "\\b(frfr|literally|ate|anyways|cap|diva|newline)\\b"
+			},
+			{
+				"name": "keyword.control.sg",
+				"match": "girl\\s+dinner"
+			},
+			{
+				"name": "keyword.control.sg",
+				"match": "no\\s+delulu\\s+math"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.sg",
+			"begin": "💬",
+			"end": "💬",
+			"patterns": [
+				{
+					"name": "constant.character.escape.sg",
+					"match": "\\\\."
+				}
+			]
+		},
+		"period": {
+			"patterns": [
+				{
+				"name": "keyword.other.period.sg",
+				"match": "\\bperiod\\b"
+				}
+			]
+		},
+		"brackets": {
+			"patterns": [
+				{
+				"name": "keyword.other.brackets.sg",
+				"match": "\\b(slay|serve)\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.sg"
+}

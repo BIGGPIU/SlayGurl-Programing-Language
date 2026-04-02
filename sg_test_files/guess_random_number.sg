@@ -1,0 +1,20 @@
+✨ random_number=2*50 period
+✨ guess=0 period
+✨ number_of_guesses=0 period
+
+💅💬Guess the random number (from 0 to 100): 💬period diva guess period
+
+literally no delulu math guess!=random_number slay 
+    number_of_guesses= no delulu math number_of_guesses+1 period
+    💅💬Wrong💬 newline period
+    frfr no delulu math guess>random_number slay 
+        💅💬The random number is lower 💬 newline period
+    serve anyways slay 
+        💅💬The random number is higher 💬 newline period
+    serve
+
+   💅💬Guess the random number (from 0 to 100): 💬period diva guess period
+serve
+💅 no delulu math 💬The number was 💬+random_number+💬 you guessed it in 💬+number_of_guesses+💬 tries💬 period
+
+

@@ -1,0 +1,31 @@
+{
+  "name": "sg",
+  "displayName": "slayGirl",
+  "description": "Slaaay guurl 💅💅💅",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sg",
+      "aliases": ["SlayGirl", "sg"],
+      "extensions": [".sg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sg",
+      "scopeName": "source.sg",
+      "path": "./syntaxes/sg.tmLanguage.json"
+    }],
+    "themes": [
+    {
+      "label": "Slay Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/slay-theme.json"
+    }]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Slay Theme",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "scope": "keyword.control.sg",
+      "settings": {
+        "foreground": "#d182cc"
+      }
+    },
+    {
+      "scope": "string.quoted.double.sg",
+      "settings": {
+        "foreground": "#4cc9f0"
+      }
+    },
+    {
+      "scope": "keyword.other.period.sg",
+      "settings": {
+        "foreground": "#ffbc03"
+      }
+    },
+    {
+      "scope": "keyword.other.brackets.sg",
+      "settings": {
+        "foreground": "#CC8899"
+      }
+    }
+  ]
+}

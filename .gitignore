@@ -1,0 +1,5 @@
+/__pycache__/
+/.vscode/
+/build
+main.spec
+code/__pycache__
