@@ -1,5 +1,7 @@
-# SlayGurl™ 💅💅💅
-
+<div align="center">
+  <h1>SlayGurl™ 💅💅💅</h1>
+  <img src="./readme_image/SGlogo.png" width="200"/>
+</div>
 
 ## How To Run
 Make sure you are in the directory where the SGC.exe is or use a relative path, and type
