@@ -132,7 +132,13 @@ else:
     runPeak=False
  
 if runPeak: 
-    os.startfile("steam://rungameid/105600")
+    match sys.platform:
+        case "win32":
+            os.startfile("steam://rungameid/105600")
+        case "darwin":
+            os.system("open steam://rungameid/105600")
+        case _:
+            os.system("xdg-open steam://rungameid/105600")
     sys.exit(0)
 
 sp=SyntaxParser(tokens)
