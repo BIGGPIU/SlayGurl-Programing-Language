@@ -1,0 +1,33 @@
+[package]
+name = "rust-compiler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+json = "0.12.4"
+rand = "0.10.1"
+serde = "1.0.228"
+tauri = "2.10.3"
+uuid = "1.23.0"
+axum = {version = "0.8.4", features = ["macros","ws"]}
+base64 = "0.22.1"
+futures-util = "0.3.31"
+getrandom = "0.3.3"
+log = "0.4.28"
+oauth2 = "5.0.0"
+reqwest = "0.12.22"
+simple_crypt = "0.2.3"
+sqlx = {version = "0.8.6", features = ["postgres","runtime-tokio"]}
+tokio = { version = "1.45.1", features = ["macros", "rt-multi-thread","rt"] }
+tower-http = { version = "0.6.6", features = ["full"] }
+tracing-subscriber = "0.3.19"
+random_word = {version = "0.5.2", features = ["en"]}
+average = "0.16.0"
+colog = "1.4.0"
+websocket = "0.27.1"
+skillratings = "0.27.1"
+graphql_client = "0.14.0"
+pkce = "0.2.0"
+url-builder = "0.1.1"
+urlencoding = "2.1.3"

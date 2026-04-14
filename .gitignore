@@ -3,3 +3,4 @@
 /build
 main.spec
 code/__pycache__
+/rust-compiler/target
