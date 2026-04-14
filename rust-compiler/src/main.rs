@@ -12,10 +12,10 @@ fn main() {
         unsafe {
             let mut x = [0,0,0,0,0];
             let epic_gamer_x = x.as_mut_ptr();
-            let mut i = 0;
+            let mut i = 6;
             loop {
 
-                epic_gamer_x.offset(6);
+                epic_gamer_x.offset(i);
                 epic_gamer_x.write_volatile(0xff_i32);
             
                 if i == 999 {
